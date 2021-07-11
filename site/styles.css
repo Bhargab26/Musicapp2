@@ -33,12 +33,13 @@
         font-family: HelveticaNormal;
         src: url("https://res.cloudinary.com/dp1xkuswt/raw/upload/v1597987314/Helvetica_uld9sz.ttf");
     }
+    
 
     a{
         text-decoration: none;
     }
 
-    a:hover{
+    a:hover {
         text-decoration: none;
     }
 
