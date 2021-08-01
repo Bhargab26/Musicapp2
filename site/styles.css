@@ -29,11 +29,47 @@
         background: transparent;
     }
 
+
     @font-face {
         font-family: HelveticaNormal;
         src: url("https://res.cloudinary.com/dp1xkuswt/raw/upload/v1597987314/Helvetica_uld9sz.ttf");
     }
     
+.progress {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 380px;
+      margin: 100px auto;
+    }
+ 
+    .progress-bar {
+      position: relative;
+      width: 70%;
+      height: 5px;
+      background-color: #eee;
+      vertical-align: 2px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+ 
+    .now {
+      position: absolute;
+      left: 0;
+      display: inline-block;
+      height: 5px;
+      width: 70%;
+      background: #31c27c;
+    }
+ 
+    .now::after {
+      content: '';
+      position: absolute;
+      left: 100%;
+      width: 3px;
+      height: 7px;
+      background-color: lightblue;
+    }
 
     a{
         text-decoration: none;
@@ -90,7 +126,22 @@
     }
 
     /* Menu */
+#Progress_Status {
+  width: 50%;
+  background-color: #ddd;
+  margin-left: 25%;
+  margin-top: 40px;
+}
+ 
+#myprogressBar {
+  width: 1%;
+  height: 5px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 22px;
+  color: black;
 
+}
     .menu{
         /* background: #4fb9e1; */
         background: white;
@@ -204,6 +255,42 @@
     }
 
     .home-card-2:active{
+        transition: 0.1s;
+        transform: scale(1.01);
+        opacity: 0.8;
+    }
+
+    .home-card-3{
+        position: relative;
+        margin-left: 20px;
+        background: linear-gradient(45deg, #00ffcc, #ffff00);
+        /* width: 80%; */
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 32px;
+        box-shadow: 0px 4px 11px #ffdbdb;
+        transition: 0.2s;
+    }
+
+    .home-card-3:active{
+        transition: 0.1s;
+        transform: scale(1.01);
+        opacity: 0.8;
+    }
+
+    .home-card-4{
+        position: relative;
+        margin-left: 20px;
+        background: linear-gradient(45deg, #993300, #996600);
+        /* width: 80%; */
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 32px;
+        box-shadow: 0px 4px 11px #ffdbdb;
+        transition: 0.2s;
+    }
+
+    .home-card-4:active{
         transition: 0.1s;
         transform: scale(1.01);
         opacity: 0.8;

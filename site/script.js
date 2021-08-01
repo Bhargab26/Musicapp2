@@ -151,14 +151,7 @@ var audioEl = document.getElementById("audioEl");
             $(".menu").removeClass("top-to-bottom-2");
             $(".menu").removeClass("tob-white");
 
-            // $(".menu").delay(2000).css("z-index", "-1");
-
-            /*
-            $(".menu").delay(400).queue(function(next) {
-                $(this).css("z-index", "-1"); 
-                next(); 
-            });
-            */
+          
 
             $("#showSideMenu").removeClass("hidden");
             $("#goBackToHome").addClass("hidden");
@@ -261,6 +254,8 @@ var audioEl = document.getElementById("audioEl");
             }
         }
 
+
+
         // Audio2
 
         function playAudio() { 
@@ -277,6 +272,7 @@ var audioEl = document.getElementById("audioEl");
             $("#audioHandler1").addClass("hidden");
 
         }
+
 
         $("#audioPlay2").on("click", function(){
             audioEl.play();
@@ -352,6 +348,7 @@ var audioEl = document.getElementById("audioEl");
             });
 
         }
+    
 
         // Splash Screen
 
@@ -370,5 +367,7 @@ var audioEl = document.getElementById("audioEl");
             next(); 
         });
         
+
+
 
         
