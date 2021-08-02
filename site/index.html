@@ -7,6 +7,9 @@
     <link id="lightCss" rel="stylesheet" href="styles.css" media="">
     <link id="darkCss" rel="stylesheet" href="darkStyles.css" media="max-width=1px">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <!-- Overwriting styles bcuz of laziness -_- -->
     <style>
         .home-heading-2{
@@ -749,67 +752,155 @@
                 <div class="sec-3--1">
                     <img class="section-4-image" src="https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626013130/MusicApp/Artist%20Pic/Arijit%20Singh.jpg">
                 </div>
-                <div class="flex sec-3--2">
-                    <div class="sec-3-b-1">
-                        Arijit Singh
-                    </div>
-                </div>
             </div>
+                <div class="Artist1">
+                    
+                
+                <div  class="ui-content">
+   
+    <a href="#myPopup" data-rel="popup" >Arijit Singh</a>
+
+    <div data-role="popup" id="myPopup" >
+      <ul data-role="listview" id="hideOnMusic" data-inset="true" style="min-width:250px;">
+        <li data-role="list-divider">Playlist1</li>
+        <li><a href="#" onclick="playMusic({songImage: 'https://res.cloudinary.com/musicappcloudshashank/image/upload/v1627921553/MusicApp/IMG/images_51_p8gdsc.jpg', songName: 'Tu hi Yaar Mera', songArtist: 'Arijit Singh', songID: 'https://res.cloudinary.com/musicappcloudshashank/video/upload/v1627921530/MusicApp/SONG/Full_VideoTu_Hi_Yaar_Mera_Pati_Patni_Aur_Woh_Kartik_A_Bhumi_P_Ananya_P_Rochak_Arijit_S_Neh_yqprtr.mp3'});">Tu Hi Yaar Mera</a></li>
+        <li><a href="#" onclick="playMusic({songImage: 'https://res.cloudinary.com/musicappcloudshashank/image/upload/v1627921553/MusicApp/IMG/images_52_sldvlb.jpg', songName: 'Humdard', songArtist: 'Arijit Singh', songID: 'https://res.cloudinary.com/musicappcloudshashank/video/upload/v1627921523/MusicApp/SONG/Hamdard_Full_Video_Song_Ek_Villain_Arijit_Singh_Mithoon_mawrrc.mp3'});">Humdard</a></li>
+        <li><a href="#">Agar Tum Saath Ho</a></li>
+        <li><a href="#">Hawayein</a></li>
+        <li><a href="#">Zaalima</a></li>
+        <li> <a href="#">Pachtaoge</a></li>
+        <li><a href="#">Kalank-Title track</a></li>
+        <li><a href="#">Raabta</a></li>
+    </ul>
+    </div>
+  </div>
+</div>
+           
 
             <div class="flex sec-5-box">
                 <div class="sec-3--1">
                     <img class="section-4-image" src="https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626013029/MusicApp/Artist%20Pic/Sanam.jpg">
                 </div>
-                <div class="flex sec-3--2">
-                    <div class="sec-3-b-1">
-                        Sanam
-                    </div>
-                </div>
-            </div>
+                 </div>
+                 <div>
+                <div class="Artist2">
+                 <div data-role="main" class="ui-content">
+   
+    <a href="#myPopup" data-rel="popup" style="margin-left: 12px;" >Sanam</a>
+
+    <div data-role="popup" id="myPopup">
+      <ul data-role="listview" data-inset="true" style="min-width:250px;">
+        <li data-role="list-divider">Playlist</li>
+        <li><a href="#" onclick="playMusic({songImage: 'https://res.cloudinary.com/musicappcloudshashank/image/upload/v1627836928/MusicApp/Hindi/img%20Jaane%20kyu%20log.jpg', songName: 'Jaane kyou log', songArtist: 'Udit Narayan', songID: 'https://res.cloudinary.com/musicappcloudshashank/video/upload/v1627836756/MusicApp/Hindi/Jaane%20Kyu%20log%20-%20Udit%20Narayan.mp3'});">Gulabi Aankhen</a></li>
+        <li><a href="#">Likhe jo khat</a></li>
+        <li><a href="#">Fakira</a></li>
+        <li><a href="#">Aapki Nazron ne</a></li>
+        <li><a href="#">Taarif Karoon</a></li>
+        <li><a href="#">Ye raatein Ye mausam</a></li>
+        <li><a href="#">O mere dil ke chain</a></li>
+        <li><a href="#">Lag jaa Gale</a></li>
+    </ul>
+    </div>
+  </div>
+</div></div>
+           
 
             <div class="flex sec-5-box">
                 <div class="sec-3--1">
                     <img class="section-4-image" src="https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626013028/MusicApp/Artist%20Pic/Zubeen%20garg.jpg">
                 </div>
-                <div class="flex sec-3--2">
-                    <div class="sec-3-b-1">
-                        Zubeen Garg
-                    </div>
-                </div>
-            </div>
+                 </div>
+               <div  class="ui-content">
+   
+    <a href="#myPopup" data-rel="popup">Zubeen Garg</a>
+
+    <div data-role="popup" id="myPopup">
+      <ul data-role="listview"  data-inset="true" style="min-width:250px;">
+        <li data-role="list-divider">Playlist</li>
+        <li><a href="#">Fagun</a></li>
+        <li><a href="#">Silaa</a></li>
+        <li><a href="#">Ya Ali</a></li>
+        <li><a href="#">Dhulikona</a></li>
+        <li><a href="#">Pakhi Pakhi</a></li>
+        <li><a href="#">Nahor</a></li>
+        <li><a href="#">Janu Janu</a></li>
+        <li><a href="#">Dil Tu hi bata</a></li>
+    </ul>
+    </div>
+  </div>
+           
 
             <div class="flex sec-5-box">
                 <div class="sec-3--1">
                     <img class="section-4-image" src="https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626013029/MusicApp/Artist%20Pic/Papon.jpg">
                 </div>
-                <div class="flex sec-3--2">
-                    <div class="sec-3-b-1">
-                        Papon
-                    </div>
                 </div>
-            </div>
+                <div data-role="main" class="ui-content">
+                <a href="#myPopup" data-rel="popup" style="margin-left: 15px;" >Papon</a>
+
+    <div data-role="popup" id="myPopup">
+      <ul data-role="listview" data-inset="true" style="min-width:250px; ">
+        <li data-role="list-divider">Playlist</li>
+        <li><a href="#">Tomar Kotha</a></li>
+        <li><a href="#">Bulleya</a></li>
+        <li><a href="#">Moh moh ke dhaage</a></li>
+        <li><a href="#">Humnava</a></li>
+        <li><a href="#">Kaun Mera</a></li>
+        <li><a href="#">Kyun</a></li>
+        <li><a href="#">Jiyein Kyun</a></li>
+        <li><a href="#">Laute Nahi</a></li>
+    </ul>
+    </div>
+  </div>
+            
 
             <div class="flex sec-5-box">
-                <div class="sec-3--1">
-                    <img class="section-4-image" src="https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626013028/MusicApp/Artist%20Pic/Shankuraj.jpg">
+                <div class="sec-3--1" style="margin-left: 20px;">
+                    <img class="section-4-image"  src="https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626013028/MusicApp/Artist%20Pic/Shankuraj.jpg">
                 </div>
-                <div class="flex sec-3--2">
-                    <div class="sec-3-b-1">
-                        Shankuraj Konwar
-                    </div>
                 </div>
-            </div>
+                <div data-role="main" class="ui-content">
+                <a href="#myPopup" data-rel="popup" >Shankuraj Konwar</a>
+
+    <div data-role="popup" id="myPopup">
+      <ul data-role="listview" data-inset="true" style="min-width:250px;">
+        <li data-role="list-divider">Playlist</li>
+        <li><a href="#">Moupiya</a></li>
+        <li><a href="#">Ronole Jau</a></li>
+        <li><a href="#">Alakananda</a></li>
+        <li><a href="#">Ongkita</a></li>
+        <li><a href="#">Bartalaap</a></li>
+        <li><a href="#">Lorali</a></li>
+        <li><a href="#">Jolopropat</a></li>
+        <li><a href="#">Nilanjana</a></li>
+    </ul>
+    </div>
+  </div>
+            
 
             <div class="flex sec-5-box">
                 <div class="sec-3--1">
                     <img class="section-4-image" src="https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626013029/MusicApp/Artist%20Pic/Kishore%20Kumar.jpg">
                 </div>
-                <div class="flex sec-3--2">
-                    <div class="sec-3-b-1">
-                        Kishore Kumar
-                    </div>
                 </div>
-            </div>
+                <div data-role="main" class="ui-content">
+                <a href="#myPopup" data-rel="popup" >Kishore Kumar</a>
+
+    <div data-role="popup" id="myPopup">
+      <ul data-role="listview" data-inset="true" style="min-width:50px;">
+        <li data-role="list-divider">Playlist</li>
+        <li><a href="#">Kora Kaagaz</a></li>
+        <li><a href="#">Tere Chehre Se Nazar Nahin</a></li>
+        <li><a href="#">Ek Ajnabee Haseena Se</a></li>
+        <li><a href="#">Yeh Sham Mastani</a></li>
+        <li><a href="#">Kehdoon Tumhen</a></li>
+        <li><a href="#">Chala Jata Hoon</a></li>
+        <li><a href="#">O Saathi Re</a></li>
+        <li><a href="#">Mere Sapnon Ki Rani</a></li>
+    </ul>
+    </div>
+  </div>
+            
 
             <div class="flex sec-3-box h-c-1-PLUS-1 s-ml-0">
             </div>
@@ -934,7 +1025,7 @@
                 </div>
             </div>
 
-             <div class="flex sec-4-box" onclick="playMusic({songImage: 'https://res.cloudinary.com/musicappcloudshashank/image/upload/v1627837138/MusicApp/Assamese/img%20Rangdhali.jpg', songName: 'Rangdhali', songArtist: 'Tanmoy Saikia', songID: https://res.cloudinary.com/musicappcloudshashank/video/upload/v1627837015/MusicApp/Assamese/RANGDHALI-Tanmoy%20Saikia.mp3'});">
+             <div class="flex sec-4-box" onclick="playMusic({songImage: 'https://res.cloudinary.com/musicappcloudshashank/image/upload/v1627837138/MusicApp/Assamese/img%20Rangdhali.jpg', songName: 'Rangdhali', songArtist: 'Tanmoy Saikia', songID: 'https://res.cloudinary.com/musicappcloudshashank/video/upload/v1627837015/MusicApp/Assamese/RANGDHALI-Tanmoy%20Saikia.mp3'});">
                 <div class="sec-3--1">
                     <img class="section-3-image" src="https://res.cloudinary.com/musicappcloudshashank/image/upload/v1627837138/MusicApp/Assamese/img%20Rangdhali.jpg">
                 </div>
@@ -986,14 +1077,14 @@
 
         <div id="audioHandler1" class="flex btn-container">
             <div class="btn-2-box f-32">
-                <ion-icon class="btn-2-content-icon" name="play-back" id="Previous"></ion-icon>
+                <ion-icon class="btn-2-content-icon" name="play-back" id="Previous" onclick="playMusic({songImage: 'https://res.cloudinary.com/musicappcloudshashank/image/upload/v1627837138/MusicApp/Assamese/img%20Rangdhali.jpg', songName: 'Rangdhali', songArtist: 'Tanmoy Saikia', songID: 'https://res.cloudinary.com/musicappcloudshashank/video/upload/v1627837015/MusicApp/Assamese/RANGDHALI-Tanmoy%20Saikia.mp3'});"></ion-icon>
             </div>
             <div class="btn-2-box b-2-b-MID">
                 <ion-icon id="audioPlay" class="btn-2-content-icon" name="play" onclick="move()"></ion-icon>
                 <ion-icon id="audioPause" class="btn-2-content-icon hidden" name="pause" ></ion-icon>
             </div>
             <div class="btn-2-box f-32">
-                <ion-icon class="btn-2-content-icon" name="play-forward" id="Next"></ion-icon>
+                <ion-icon class="btn-2-content-icon" name="play-forward" id="Next" ></ion-icon>
             </div>
         </div>
 
@@ -1001,14 +1092,14 @@
 
 
             <div class="btn-2-box f-32">
-                <ion-icon class="fas fa-backward" name="play-back" id="Previous"></ion-icon>
+                <ion-icon class="fas fa-backward" name="play-back" id="Previous" onclick="playMusic({songImage: 'https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626001019/MusicApp/IMG/BOZROPAT%20MUSIC-PUHOR.jpg', songName: 'Puhor', songArtist: 'Raj X Ron', songID: 'https://res.cloudinary.com/musicappcloudshashank/video/upload/v1626000925/MusicApp/SONG/BOZROPAT_MUSIC_-_PUHOR_RAJ_X_RON_2020_ASSAMESE_MASHUP_SONG_wyn87c.mp3'});"></ion-icon>
             </div>
             <div class="btn-2-box b-2-b-MID">
                 <ion-icon id="audioPlay2" class="btn-2-content-icon" name="play" onclick="update()"></ion-icon>
                 <ion-icon id="audioPause2" class="btn-2-content-icon hidden" name="pause" ></ion-icon>
             </div>
             <div class="btn-2-box f-32">
-                <ion-icon class="fas fa-forward" name="play-forward" id="Next"></ion-icon>
+                <ion-icon class="fas fa-forward" name="play-forward" id="Next" onclick="playMusic({songImage: 'https://res.cloudinary.com/musicappcloudshashank/image/upload/v1626002835/MusicApp/IMG/O%20mere%20dil%20ke%20chain.jpg', songName: 'O Mere Dil Ke Chain', songArtist: 'Sanam', songID: 'https://res.cloudinary.com/musicappcloudshashank/video/upload/v1626002802/MusicApp/SONG/O%20mere%20dil%20ke%20chain.mp3'});"></ion-icon>
             </div>
         </div>
       <div class="progress">
@@ -1114,5 +1205,6 @@
   }, 1000)
 
 </script>
+
 </body>
 </html>

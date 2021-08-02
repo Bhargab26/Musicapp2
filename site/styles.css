@@ -65,6 +65,8 @@
         object-fit: cover;
     }
 
+
+
     .z-1{
         display: inline-block;
         transform: rotate(90deg);
@@ -431,10 +433,12 @@
     }
 
     .section-4-image{
+        position: relative;
         height: 90px;
         width: 90px;
         border: 2px solid #f1fbff;
         border-radius: 100px;
+        margin-left: 10px;
     }
 
     .s-ml-0{
