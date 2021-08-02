@@ -232,9 +232,7 @@ var audioEl = document.getElementById("audioEl");
             }, 100);
         });
 
-        // $("[id^='btnCircleHandle_']").on("dblclick", function(){
-        //     checkHeart();
-        // });
+        
 
         function handleAudio(){
             $("#audioHandler1").removeClass("hidden");
