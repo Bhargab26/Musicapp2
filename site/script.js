@@ -276,6 +276,7 @@ var audioEl = document.getElementById("audioEl");
             audioEl.play();
             $("#audioPlay2").addClass("hidden");
             $("#audioPause2").removeClass("hidden");
+            $("#musicImage").addClass("anime");
 
         });
         
@@ -284,6 +285,7 @@ var audioEl = document.getElementById("audioEl");
             pauseAudio();
             $("#audioPlay2").removeClass("hidden");
             $("#audioPause2").addClass("hidden");
+            $("#musicImage").removeClass("anime");
         });
 
         // playMusic({songImage: '', songName: '', songArtist: '', songID: ''});
@@ -312,7 +314,7 @@ var audioEl = document.getElementById("audioEl");
             $("#audioPlay2").click();
 
             $("#musicImage").animate({
-                opacity: 0.2
+                opacity: 0.6
             }, 600, function(){
                 $("#musicImage").animate({
                     opacity: 1
